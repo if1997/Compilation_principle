@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "echo hello",
             "type": "shell",
-            "command": "python",
+            "command": "g++",
             "args": [
                 "${file}"
             ],
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             }
         }
