@@ -93,7 +93,7 @@
                 }
             }
         },
-    {
+        {
         "command": "g++",
         "args": ["-g","${file}","-o","${file}.exe"],    // gcc编译命令参数
         "problemMatcher": {
