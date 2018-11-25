@@ -24,7 +24,7 @@
                     "ignoreFailures": true
                 }
             ],
-            //"preLaunchTask": "Compile3" 
+            "preLaunchTask": "g++" 
         },
             {
                 "name": "C++ Launch (GDB)",                 // 配置名称，将会在启动配置的下拉菜单中显示
